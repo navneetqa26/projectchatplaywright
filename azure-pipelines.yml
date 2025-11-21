@@ -8,11 +8,6 @@ steps:
 - checkout: self
   displayName: "Checkout Repo"
 
-- task: NodeTool@0
-  inputs:
-    versionSpec: "18.x"
-  displayName: "Use Node.js 18"
-
 - script: |
     npm install
     npx playwright install --with-deps

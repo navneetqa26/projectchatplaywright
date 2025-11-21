@@ -1,0 +1,52 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - link "logo" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img "logo" [ref=e7]
+      - generic [ref=e8]:
+        - button "Notifications" [ref=e10] [cursor=pointer]:
+          - img [ref=e11]
+          - generic [ref=e13]: Notifications
+        - generic [ref=e15] [cursor=pointer]:
+          - img [ref=e16]
+          - generic [ref=e19]: NewUserss
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - generic [ref=e23]: Menu
+          - button [ref=e24] [cursor=pointer]:
+            - img [ref=e25]
+        - generic [ref=e27]:
+          - paragraph [ref=e31] [cursor=pointer]: Home
+          - paragraph [ref=e35] [cursor=pointer]: WorkSpaces
+          - paragraph [ref=e39] [cursor=pointer]: Support Tickets
+          - paragraph [ref=e43] [cursor=pointer]: Settings
+      - main [ref=e44]:
+        - generic [ref=e45]:
+          - generic [ref=e46]:
+            - paragraph [ref=e47]: Welcome NewUserss !
+            - paragraph [ref=e48]: Let's start building your first Workspace
+            - button " Add a Workspace" [ref=e49] [cursor=pointer]:
+              - generic [ref=e50]: 
+              - generic [ref=e51]: Add a Workspace
+          - generic [ref=e53]:
+            - generic [ref=e54]:
+              - heading "Add a Workspace" [level=2] [ref=e55]
+              - button [ref=e56] [cursor=pointer]:
+                - img [ref=e57]
+            - generic [ref=e60]:
+              - generic [ref=e61]:
+                - generic [ref=e62]: Name of Workspace *
+                - textbox "Enter a name" [ref=e63]: Hello worlddd
+              - generic [ref=e64]:
+                - generic [ref=e65]: Description
+                - textbox "Describe what this Workspace will be used for" [ref=e66]: This is description
+              - generic [ref=e67]:
+                - button "Add" [ref=e68] [cursor=pointer]
+                - button "Advanced Options" [ref=e69] [cursor=pointer]
+  - alert [ref=e70]: Home - ProjectChat
+```
